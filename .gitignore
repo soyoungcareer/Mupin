@@ -31,3 +31,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+
+### 포트번호 application 이그노어 처리 ###
+appplication.properties
