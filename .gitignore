@@ -34,4 +34,7 @@ build/
 
 
 ### 포트번호 application 이그노어 처리 ###
-appplication.properties
+application.properties
+
+### MANIFEST.MF 이그노어 처리 ###
+MANIFEST.MF
