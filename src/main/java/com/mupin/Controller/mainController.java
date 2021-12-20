@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class mainController {
 
-    @GetMapping("/index")
+    @GetMapping("/main")
     public String index(){
         System.out.println("hi");
-        return "index";
+        return "/layouts/main";
     }
 }
