@@ -6,9 +6,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class mainController {
 
-    @GetMapping("/main")
+    @GetMapping("/example")
     public String index(){
-        System.out.println("hi");
-        return "/layouts/main";
+        return "/layouts/example";
+    }
+    @GetMapping("/order")
+    public String order(){
+        return "/layouts/order";
     }
 }
